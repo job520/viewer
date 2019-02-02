@@ -1,0 +1,13 @@
+{
+  "name": "job520/viewer",
+  "description": "自用日志查看器",
+  "authors": [
+    {
+      "name": "lee",
+      "email": "complet@163.com"
+    }
+  ],
+  "autoload":{
+    "psr-4":{"job520\\":"src/"}
+  }
+}
