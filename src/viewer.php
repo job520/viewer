@@ -17,7 +17,14 @@ class viewer{
         return $dirPath . $filename;
     }
     //构造函数必须是私有的在单例设计模式中
-    public function __construct($filePath,$request_uri){
+    public function __construct($filePath,$request_uri,$auth = null){
+        if(is_array($auth)){
+            $username = $auth['username'];
+            $password = $auth['password'];
+            if(!(isset($_SERVER['PHP_AUTH_USER'],$_SERVER['PHP_AUTH_PW']) && $_SERVER['PHP_AUTH_USER'] == $username && $_SERVER['PHP_AUTH_PW'] == $password)){
+                header('WWW-Authenticate:Basic realm ="Restricted area"');
+            }
+        }
         $this->filePath = $filePath;
         $this->request_uri = $request_uri;
     }
