@@ -1,12 +1,13 @@
 > viewer
->> 自用日志查看器
+>> 自用日志查看器  
+>> 官方文档：[点击进入](http://doc.job520.net/web/#/page/edit/3/42)
 
 ### 1. 引入：
-1. 下载：
+1. 下载：  
 `
 composer require job520/viewer
 `
-2. 引入：
+2. 引入：  
 `
 require_once "vendor/autoload.php";
 `
