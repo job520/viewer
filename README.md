@@ -1,6 +1,6 @@
 > viewer
 >> 自用日志查看器  
->> 官方文档：[点击进入](http://doc.job520.net/web/#/page/edit/3/42)
+>> 官方文档：[点击进入](http://doc.job520.net/web/#/3?page_id=42)
 
 ### 1. 引入：
 1. 下载：  
