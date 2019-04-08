@@ -34,5 +34,5 @@ $obj = new viewer($base,$request_uri,$auth);
 $obj->run();
 ```
 2. 效果：
-![](http://doc.job520.net/server/../Public/Uploads/2019-02-06/5c5b013bbdc1d.png)
-![](http://doc.job520.net/server/../Public/Uploads/2019-02-02/5c55ad1815087.png)
+![](http://doc.job520.net/server/../Public/Uploads/2019-04-09/5cab8a857b867.png)
+![](http://doc.job520.net/server/../Public/Uploads/2019-04-09/5cab8ac519bd6.png)
